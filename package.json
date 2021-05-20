@@ -1,0 +1,22 @@
+{
+  "name": "teamprofile_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employee.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtstockard/TeamProfile_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtstockard/TeamProfile_Generator/issues"
+  },
+  "homepage": "https://github.com/jtstockard/TeamProfile_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}

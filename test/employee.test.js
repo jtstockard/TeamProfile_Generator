@@ -1,4 +1,4 @@
-const Employee = require("../employee.js");
+const Employee = require("../Employee");
 
 describe("employee", () => {
   it("Can instantiate Employee instance", () => {

@@ -1,4 +1,4 @@
-const Manager = require("../manager");
+const Manager = require("../lib/Manager");
 
 describe("manager", () => {
   it("Can set office number via constructor argument", () => {

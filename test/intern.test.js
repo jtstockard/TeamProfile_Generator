@@ -1,4 +1,4 @@
-const Intern = require("../intern.js");
+const Intern = require("../lib/Intern");
 
 describe("intern", () => {
   it("Can set school via constructor", () => {

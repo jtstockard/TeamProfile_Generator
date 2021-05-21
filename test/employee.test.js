@@ -1,6 +1,6 @@
-const Employee = require("../employee");
+const Employee = require("../employee.js");
 
-describe("Employee", () => {
+describe("employee", () => {
   it("Can instantiate Employee instance", () => {
     const e = new Employee();
     expect(typeof e).toBe("object");

@@ -1,4 +1,4 @@
-# TeamProfile_Generator<h1 align="center">Team Profile Generator</h1>
+# <h1 align="center">Team Profile Generator</h1>
 
 </p>
    

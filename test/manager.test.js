@@ -1,8 +1,8 @@
 const Manager = require("../lib/Manager");
 
-describe("manager", () => {
+describe("Manager", () => {
   it("Can set office number via constructor argument", () => {
-    const testValue = 10;
+    const testValue = 100;
     const e = new Manager("Value", 1, "test@test.com", testValue);
     expect(e.officeNumber).toBe(testValue);
   });
@@ -14,8 +14,8 @@ describe("manager", () => {
   });
 
   it("Can get office number via getOffice()", () => {
-    const testValue = 10;
+    const testValue = 100;
     const e = new Manager("Value", 1, "test@test.com", testValue);
-    expect(e.getOfficeNumber()).toBe(testValue);
+    expect(e.getOffice()).toBe(testValue);
   });
 });

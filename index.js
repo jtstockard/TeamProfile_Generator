@@ -171,7 +171,7 @@ function generateCard(employee) {
   } else {
     iconClass = "fas fa-crown";
     lastItemLabel = "Office Number";
-    lastItem = employee.getOfficeNumber();
+    lastItem = employee.getOffice();
     color = "info";
   }
 
